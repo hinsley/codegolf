@@ -4,4 +4,5 @@
 
 {1/(.{\."\n"=}{;\(@\.@\+}until;\{+}*\}:nextLine;
 {1/(.{\.." "=\"\n"= or}{;\(@\.@\+}until;);\{+}*\}:nextWord;
+{{nextWord\.1/)\;"\n"=}do}:splitWords;
 
