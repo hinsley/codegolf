@@ -5,11 +5,10 @@
 {{(1/([\]);\+}%}:acronymifyPairs;
 {1/(.{\."\n"=}{;\(@\.@\+}until;\{+}*\}:nextLine;
 {1/(.{\.." "=\"\n"= or}{;\(@\.@\+}until;);\{+}*\}:nextWord;
-{[{.[]=}{(\(@[\]\}until;]}:pairs;
 {["and" "gives" "goes" "high" "low" "to"]-}:simplifyCommand;
 {[{."\n"=}{nextLine\}until;]}:splitLines;
 {[{nextWord\.1/)\;"\n"=}do]}:splitWords;
 
 splitLines
-{splitWords simplifyCommand pairs acronymifyPairs}%
+{splitWords simplifyCommand 2/ acronymifyPairs}%
 
